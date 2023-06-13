@@ -1,4 +1,4 @@
-# 代码走读
+# 代码初步走读
 **Terraform 通过 Terraform Provider 与云提供商、SaaS 服务提供商等第三方通信。而 Terraform 与 Terraform Provider 之间的通信则使用 gRPC。Terraform 作为 gRPC 客户端运行，Provider 作为 gRPC 服务器运行**
 
 Terraform 通过 Provider 定义的 Resource 来管理基础设施、通过定义的 Datasource 来读取数据。
@@ -9,9 +9,9 @@ Terraform 通过 Provider 定义的 Resource 来管理基础设施、通过定�
 
 ## Provider 核心组件
 Terraform Provider 至少需要以下组件：
-* [Provider Server]
-* [Provider]
-* [Resource] or [Datasource]
+* Provider Server
+* Provider
+* Resource or Datasource
 
 Provider 对 Resource(s) 和 Datasource(s) 进行了包装，并可配置一个客户端 Client，通过 API 与第三方服务通信。
 Resource 用于管理基础设施对象；
