@@ -1,5 +1,7 @@
 Terraform Plugin Framework 开发教程中文版
 
+随缘翻译，附带一些个人理解
+
 Source: https://developer.hashicorp.com/terraform/plugin/framework
 
 [01. Terraform Plugin Framework 基本介绍](Core/01_Terraform_Plugin_Framework.md)
