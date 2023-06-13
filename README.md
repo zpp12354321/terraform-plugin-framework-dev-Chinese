@@ -8,7 +8,7 @@ Source: https://developer.hashicorp.com/terraform/plugin/framework
 
 [02. 代码初步走读](Core/02_Provider_Code_Walkthrough.md)
 
-03.01 示例教程 - 实现 Provider
+[03.01 示例教程 - 实现 Provider](Core/03_01_Implement_Provider.md)
 
 03.02 示例教程 - 配置 Provider Client
 
