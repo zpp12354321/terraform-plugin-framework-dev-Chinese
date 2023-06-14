@@ -290,7 +290,7 @@ $ terraform plan
 ```
 
 Notice: 无需执行 terraform init，
-dev_overrides 参数告诉 Terraform 命令（例如 terraform apply）忽略由 terraform init 填充的依赖项锁定文件和提供程序缓存目录，并改用您指定的路径。
+dev_overrides 参数告诉 Terraform 命令（例如 terraform apply）忽略由 terraform init 填充的依赖项锁定文件和 Provider 缓存目录，并改用您指定的路径。
 它不会影响 terraform init 本身的行为
 
 参考：https://stackoverflow.com/questions/74402085/terraform-cannot-init-custom-provider-written-in-go
