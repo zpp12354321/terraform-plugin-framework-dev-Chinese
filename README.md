@@ -10,9 +10,9 @@ Source: https://developer.hashicorp.com/terraform/plugin/framework
 
 [03.01 示例教程 - 实现 Provider](Core/03_01_Implement_Provider.md)
 
-03.02 示例教程 - 配置 Provider Client
+[03.02 示例教程 - 配置 Provider Client](Core/03_02_Configure_Provider_Client.md)
 
-03.03 示例教程 - 实现 Datasource
+[03.03 示例教程 - 实现 Datasource](Core/03_03_Implement_Datasource.md)
 
 03.04 示例教程 - 实现 Logging
 
