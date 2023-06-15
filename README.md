@@ -16,9 +16,9 @@ Source: https://developer.hashicorp.com/terraform/plugin/framework
 
 [03.04 示例教程 - 实现 Logging](Core/03_04_Implement_logging.md)
 
-03.05 示例教程 - 实现 Resource Create 和 Read
+[03.05 示例教程 - 实现 Resource Create 和 Read](Core/03_05_Implement_Resource_Create_Read.md)
 
-03.06 示例教程 - 实现 Resource Update
+[03.06 示例教程 - 实现 Resource Update](Core/03_06_Implement_Resource_Update.md)
 
 03.07 示例教程 - 实现 Resource Delete
 
