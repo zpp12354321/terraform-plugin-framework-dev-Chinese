@@ -14,7 +14,7 @@ Source: https://developer.hashicorp.com/terraform/plugin/framework
 
 [03.03 示例教程 - 实现 Datasource](Core/03_03_Implement_Datasource.md)
 
-03.04 示例教程 - 实现 Logging
+[03.04 示例教程 - 实现 Logging](Core/03_04_Implement_logging.md)
 
 03.05 示例教程 - 实现 Resource Create 和 Read
 
