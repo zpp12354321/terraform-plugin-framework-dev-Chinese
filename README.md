@@ -20,7 +20,7 @@ Source: https://developer.hashicorp.com/terraform/plugin/framework
 
 [03.06 示例教程 - 实现 Resource Update](Core/03_06_Implement_Resource_Update.md)
 
-03.07 示例教程 - 实现 Resource Delete
+[03.07 示例教程 - 实现 Resource Delete](Core/03_07_Implement_Resource_Delete.md)
 
 03.08 示例教程 - 实现 Resource Import
 
