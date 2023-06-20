@@ -1,9 +1,9 @@
 # 实现资源导入
 在本教程中，您将为 provider 的 order resource 添加导入功能。为此，您将：
 
-1. 实现资源导入
+1. 实现资源导入  
 通过 terraform import 命令获取给定的订单 ID，使 Terraform 能够开始管理现有订单
-2. 验证导入功能
+2. 验证导入功能  
 确保资源导入功能按预期工作
 
 ## 前置
@@ -12,9 +12,9 @@
 * Docker and Docker Compose
 
 ## 实现导入功能
-provider 使用 ImportState 方法导入现有资源，具体步骤为：
+provider 使用 `ImportState` 方法导入现有资源，具体步骤为：
 
-使用 resource.ImportStatePassthroughID() 方法从 terraform import 命令中获取 ID 值并将其保存到 id 属性。
+使用 `resource.ImportStatePassthroughID()` 方法从 `terraform import` 命令中获取 ID 值并将其保存到 id 属性。
 
 **如果没有发生错误，Terraform 将自动调用资源的 Read 方法来导入其余的 Terraform 属性状态**（重点关注！！）。
 
@@ -63,7 +63,7 @@ $ go install .
 ```
 cd examples/order
 ```
-执行 terraform apply，确保资源创建成功
+执行 `terraform apply`，确保资源创建成功
 ```
 $ terraform apply -auto-approve
 #...
