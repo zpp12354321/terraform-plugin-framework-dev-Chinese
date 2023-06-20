@@ -96,6 +96,19 @@ $ terraform state rm hashicups_order.edu
 Removed hashicups_order.edu
 Successfully removed 1 resource instance(s).
 ```
+确保资源移除成功
+
+之前的 edu_order output 仍将保留
+```
+$ terraform show
+
+Outputs:
+
+edu_order = {
+    id           = "2"
+    items        = [
+#$...
+```
 导入现有资源
 ```
 $ terraform import hashicups_order.edu 2
